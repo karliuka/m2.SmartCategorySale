@@ -9,7 +9,7 @@
 	"require": {
 		"php": "~5.5.0|~5.6.0|~7.0.0",
 		"faonni/module-smart-category": "^2.0",
-		"faonni/module-product-sale": "^2.0"
+		"faonni/module-product-sale-indexer": "^2.0"
 		},
 	"autoload": {
 	"files": [ "registration.php" ],
