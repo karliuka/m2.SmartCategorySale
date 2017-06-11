@@ -24,6 +24,12 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
 	<!--
+	event controller_action_catalog_product_save_entity_after
+	-->	    
+    <event name="controller_action_catalog_product_save_entity_after">
+        <observer name="faonni_smart_category_sale" instance="Faonni\SmartCategorySale\Observer\ProductSaveObserver" />
+    </event> 	
+	<!--
 	event faonni_smartcategory_product_collection_match_before
 	-->	    
     <event name="faonni_smartcategory_product_collection_match_before">

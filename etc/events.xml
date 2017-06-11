@@ -6,6 +6,9 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<!--
+	event catalog_block_product_list_collection
+	-->	  	
     <event name="catalog_block_product_list_collection">
         <observer name="faonni_smart_category_sale" instance="Faonni\SmartCategorySale\Observer\ProductListObserver"  />
     </event>
