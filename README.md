@@ -11,7 +11,7 @@ SmartCategory functionality from sale products. Extension has a dependency on [S
 2. Enter following commands to install module:
 
     ```bash
-    composer require faonni/module-smart-category-kit
+    composer require faonni/module-smart-category-sale
     ```
    Wait while dependencies are updated.
 
