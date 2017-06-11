@@ -41,12 +41,7 @@ class ProductListObserver implements ObserverInterface
 		$select = $collection->getSelect();
 		$connection = $select->getConnection();	
 		
-		$select
-			->joinLeft(
-				['smart_category' => $collection->getTable('faonni_smartcategory_rule')],
-				'cat_index.category_id = smart_category.rule_id',
-				[]
-			)		
+		$select	
 			->joinLeft(
 				['sale_index' => $collection->getTable('faonni_catalog_product_index_sale')],
 				join(
