@@ -23,4 +23,5 @@ SmartCategory functionality from sale products. Extension has a dependency on [S
 	
 ### Dependents
 [Smart Category](https://github.com/karliuka/m2.SmartCategory)
+
 [Product Sale Indexer](https://github.com/karliuka/m2.ProductSaleIndexer)
