@@ -1,4 +1,4 @@
-# Magento2 Smart Category Sale
+# Magento2 Smart Category Sale (Deprecated)
 SmartCategory functionality from sale products. Extension has a dependency on [Smart Category](https://github.com/karliuka/m2.SmartCategory) and not used individually.
 
 ## Install with Composer as you go
